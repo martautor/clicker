@@ -35,7 +35,8 @@ export default function ProgressSlide() {
       }
     }, [load])
 
-    return (<Stack spacing={2} sx={{ flexGrow: 1 }}>
+    return (<Stack spacing={2} sx={{ flexGrow: 1, textAlign: 'center', m: 3 }}>
+        <h4>Loading...</h4>
         <br />
         <BorderLinearProgress color='error' variant="determinate" value={load} />
       </Stack>)

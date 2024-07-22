@@ -1,7 +1,6 @@
 import { Container } from "@mui/material";
 import ProgressSlide from "./components/ProgressSlide";
 import { useState } from "react";
-import Home from "./routes/Home";
 import Default from "./routes/Default";
 
 function App() {

@@ -7,8 +7,8 @@ export default function Default() {
             <Link to='/home'> <Button>Home</Button>   </Link>
             <Link to='/play'> <Button>Let's play</Button> </Link>
         </Container>
-        <Box>
-            <Outlet/>
+        <Box sx={{ display: 'flex' }}>
+            <Outlet />
         </Box>
     </div>)
 }
